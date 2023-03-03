@@ -1,17 +1,19 @@
 body {
   font: 15px Arial, Helvetica, sans-serif;
-  color: rgb(202, 202, 202);
-  background-color: rgb(45, 45, 48);
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .name-link {
   font-size: 24px;
-  justify-self: center;
+}
+
+#logo {
+  margin-left: auto;
 }
 
 a {
@@ -25,7 +27,7 @@ ul {
   margin: 0;
 }
 
-.point-inline {
+.navbar {
   display: flex;
   gap: 10px;
 }
@@ -54,7 +56,6 @@ footer > * {
   width: 2rem;
   height: 2rem;
   object-fit: scale-down;
-  filter: invert();
 }
 
 .slideshow-container {

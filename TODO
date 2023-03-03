@@ -1,7 +1,7 @@
 _Header_
 
 - Left
-  Home, About, Pre-University, University, Contact
+  Home, About, Work, Contact
 - Center
   Isabel Tan
 - Right
@@ -31,25 +31,26 @@ _About_
 - p Lorem
 - p Contact
 
-_Pre-University_
+_Work_
 
-- 3 Wide photos
-  Photos have anchor in it
+- Project / Photography
 
-_University_
+  - Container
+    h2 Projects
+  - 3 Wide Photos grid
+    Photos have anchor in it
+    Hover causes them to enlarge and dim background
 
-- Container
-  h2 Projects
-- 2 Wide Photos
-  Photos have anchor in it
-- Container
-  h2 History and Theoretical Studies
-  h4 Awarded, Nominated and Written Essays on Architecture
-- Container
-  h3 Title of essay
-  h4 Award/Nominated
-  p desc.
-  p Download
+- Essay
+
+  - Container
+    h2 History and Theoretical Studies
+    h4 Awarded, Nominated and Written Essays on Architecture
+  - Container
+    h3 Title of essay
+    h4 Award/Nominated
+    p desc.
+    p Download
 
 _Contact_
 
