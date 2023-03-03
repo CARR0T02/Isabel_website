@@ -8,17 +8,47 @@
     <title>Isabel Tan</title>
   </head>
   <body>
-    <div class="header">
+    <nav class="header">
       <ul class="point-inline">
+        <li><a href="index.html">Home</a></li>
         <li><a href="subpages/about.html">About</a></li>
-        <li><a href="subpages/work.html">Work</a></li>
+        <li><a href="subpages/pre-university">Pre-University</a></li>
+        <li><a href="subpages/university">University</a></li>
         <li><a href="subpages/contact.html">Contact</a></li>
       </ul>
-      <div id="name">Isabel Tan</div>
+      <a class="name-link" href="index.html">Isabel Tan</a>
       <div class="search-bar">
         <input type="text" />
         <button>&#128269;</button>
       </div>
+    </nav>
+    <div class="page-container">
+      <div class="slideshow-container">
+        <img class="image-slide" src="images/test1.jpg" alt="project title1" />
+        <img class="image-slide" src="images/test2.jpg" alt="project title2" />
+        <img class="image-slide" src="images/test3.jpg" alt="project title3" />
+        <img class="image-slide" src="images/test4.jpg" alt="project title4" />
+        <img class="image-slide" src="images/test5.jpg" alt="project title5" />
+      </div>
+      <a class="previous" onclick="plusSlide(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlide(1)">&#10095;</a>
+      <div class="slideshow-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
+    <footer>
+      <div><a class="name-link" href="index.html">Isabel Tan</a></div>
+      <div>
+        <a href="https://www.linkedin.com/in/isabel-tan-su-yi/">
+          <img class="footer-icon" src="images/linkedin-icon.svg" />
+        </a>
+        <a href="https://www.instagram.com/izzysworks_25/">
+          <img class="footer-icon" src="images/instagram-icon.svg" />
+        </a>
+      </div>
+      <p>&copy;2023 by Isabel Tan</p>
+    </footer>
   </body>
 </html>

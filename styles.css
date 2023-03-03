@@ -1,10 +1,22 @@
+body {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: rgb(202, 202, 202);
+  background-color: rgb(45, 45, 48);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
 }
 
+.name-link {
+  font-size: 24px;
+  justify-self: center;
+}
+
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -29,6 +41,30 @@ ul {
   margin: 0;
 }
 
+footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+footer > * {
+  margin-top: 2rem;
+}
+
+.footer-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: scale-down;
+  filter: invert();
+}
+
+.slideshow-container {
+  text-align: center;
+}
+
+.image-slide {
+  object-fit: cover;
+  width: 85%;
+}
 /* .header > * {
     border: 1px solid red;
 } */
